@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/home_48" />
+
+    <item
+        android:id="@+id/nav_log_expense"
+        android:title="Log Expense"
+        android:icon="@drawable/dollar_48" />
+
+    <item
+        android:id="@+id/nav_set_category"
+        android:title="Set Expense Category"
+        android:icon="@drawable/choice_icon" />
+    <item
+        android:id="@+id/nav_set_goals"
+        android:title="Goals and Achievements"
+        android:icon="@drawable/goal_icon" />
+    <item
+        android:id="@+id/nav_view_expenses"
+        android:title="View Expenses"
+        android:icon="@drawable/coins_48" />
+
+    <item
+        android:id="@+id/nav_progress_dashboard"
+
+        android:title="Budget Progress" />
+
+    <item
+        android:id="@+id/nav_spending_graph"
+        android:title="Spending Graph"
+        android:icon="@drawable/ic_bar_chart" />
+
+    <item
+        android:id="@+id/nav_ai_advice"
+        android:title="AI Assistant"
+        android:icon="@drawable/brain_icon" /> <!-- You can add another icon -->
+
+    <item android:id="@+id/settingsFragment"
+        android:title="Settings"
+        android:icon="@drawable/settings_sliders_24" />
+
+    <item android:id="@+id/LogOutFragment"
+        android:title="Log Out"
+        android:icon="@drawable/exit_icon" />
+</menu>

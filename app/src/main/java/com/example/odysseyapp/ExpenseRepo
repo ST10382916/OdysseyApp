@@ -1,0 +1,68 @@
+
+
+   //The following methods is for expenses, but it is not being used because it is using memory and not the local db
+
+
+ private val expenses = mutableListOf<Expense>()
+// private var nextId = 1
+//
+//    // Create
+//    fun addExpense(expense: Expense): Expense {
+//        val newExpense = expense.copy(id = nextId++)
+//        expenses.add(newExpense)
+//        return newExpense
+//    }
+//
+//    // Read - Get All
+//    fun getAllExpenses(): List<Expense> {
+//        return expenses
+//    }
+//
+//    // Read - Get by ID
+//    fun getExpenseById(id: Int): Expense? {
+//        return expenses.find { it.id == id }
+//    }
+//
+//    // Update
+//    fun updateExpense(updatedExpense: Expense): Boolean {
+//        val index = expenses.indexOfFirst { it.id == updatedExpense.id }
+//        return if (index != -1) {
+//            expenses[index] = updatedExpense
+//            true
+//        } else {
+//            false
+//        }
+//    }
+//
+//    // Delete
+//    fun deleteExpense(id: Int): Boolean {
+//        return expenses.removeIf { it.id == id }
+//    }
+//// filtering through a list in kotlin
+//// Kotlin Help. (2023). Kotlin Help. [online]
+//// Available at: https://kotlinlang.org/docs/collection-filtering.html [Accessed 13 Apr. 2025].
+//
+//    fun searchExpenses(keyword: String): List<Expense> {
+//        return expenses.filter {
+//            //filter through the list of expenses with the following conditions
+//            it.name.contains(keyword, ignoreCase = true) ||
+//                    it.category.contains(keyword, ignoreCase = true) //it must check for the name of the expense or the category
+//
+//        }
+//    }
+//
+//    fun generateRecurringExpenses(currentDate: Long): List<Expense> {
+//     //we want to show reoccuring expenses up until the current date.
+//  //filter through the expenses by first finding the reoccuring expenses then filter by date
+//     //   var list = getAllExpenses()
+//        var reoccur = expenses.filter { expense -> expense.isRecurring == true }
+//        return reoccur.filter { expense -> expense.date<= currentDate }
+//    //filter through the reoccuring dates and give dates that are
+//    // before and equal to the current date
+////    //Filtering through dates java code Emperor.M, (2019). How would I properly filter dates that are in between a start date and end date, using the Java Streams API? [online] Stack Overflow. Available at: https://stackoverflow.com/questions/55426711/how-would-i-properly-filter-dates-that-are-in-between-a-start-date-and-end-date [Accessed 13 Apr. 2025].
+  //    fun filterByDate(startDate: Long, endDate: Long): List<Expense> {
+  //        //compare the two longs
+  //        return expenses.filter { //lambda expression- for every expense return the expenses that fall between these two longs
+  //             expense -> expense.date in startDate..endDate
+  //        }
+  //    }

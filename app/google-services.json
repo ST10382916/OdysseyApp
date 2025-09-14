@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117603234446",
+    "project_id": "odysseyfinance-5c53f",
+    "storage_bucket": "odysseyfinance-5c53f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117603234446:android:20f61ea960a10a3b458fdf",
+        "android_client_info": {
+          "package_name": "com.example.odysseyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9VWHGxkVUdrSzYVB8GmieYd_KUncxs7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
